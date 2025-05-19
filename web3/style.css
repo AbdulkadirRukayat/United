@@ -144,7 +144,7 @@ nav {
 
 .hero-content {
   position: relative;
-  z-index: 2;
+  z-index: 8;
   background: #00000066;
   background-size: cover;
   padding: 8rem;

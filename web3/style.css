@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
 }
 
 body {
@@ -392,11 +391,14 @@ ion-icon.icon-mobile-nav {
   .h {
     font-size: 1.8rem;
     padding-top: 20px;
+    align-items: center;
   }
 
   .head-p {
     font-size: 1rem;
     max-width: 105%;
+    align-items: center;
+    padding: 0 0;
   }
 
   .cta-button {

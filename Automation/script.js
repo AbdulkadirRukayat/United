@@ -4,69 +4,6 @@
 // but I've included a simple script for potential button interactions,
 // such as alerting on click. You can expand this as needed.
 
-// script.js
-document.addEventListener('DOMContentLoaded', () => {
-    // Mobile menu toggle
-    const hamburger = document.querySelector('.hamburger');
-    const navMenu = document.querySelector('.nav-menu');
-
-    hamburger.addEventListener('click', () => {
-        hamburger.classList.toggle('active');
-        navMenu.classList.toggle('active');
-    });
-
-    // Close mobile menu when clicking on a link
-    document.querySelectorAll('.nav-menu a').forEach(link => {
-        link.addEventListener('click', () => {
-            hamburger.classList.remove('active');
-            navMenu.classList.remove('active');
-        });
-    });
-
-    // Smooth scrolling for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
-            if (target) {
-                target.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
-            }
-            // Close mobile menu after clicking
-            if (window.innerWidth <= 768) {
-                hamburger.classList.remove('active');
-                navMenu.classList.remove('active');
-            }
-        });
-    });
-
-    // Hamburger animation
-    hamburger.addEventListener('click', () => {
-        hamburger.classList.toggle('active');
-        if (hamburger.classList.contains('active')) {
-            hamburger.querySelectorAll('span').forEach((span, index) => {
-                span.style.transform = index === 1 ? 'translateY(6px) rotate(45deg)' : 'translateY(-6px) rotate(-45deg)';
-            });
-        } else {
-            hamburger.querySelectorAll('span').forEach(span => {
-                span.style.transform = 'none';
-            });
-        }
-    });
-
-    // Close mobile menu on window resize
-    window.addEventListener('resize', () => {
-        if (window.innerWidth > 768) {
-            hamburger.classList.remove('active');
-            navMenu.classList.remove('active');
-            hamburger.querySelectorAll('span').forEach(span => {
-                span.style.transform = 'none';
-            });
-        }
-    });
-});
 
 document.addEventListener('DOMContentLoaded', () => {
     const primaryBtn = document.querySelector('.btn.primary');
@@ -192,4 +129,5 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
 

@@ -79,7 +79,7 @@ body {
 
 .profession {
     font-size: 14px;
-    color: #ecb308f0; /* Light purple */
+    color:#0a001f; /* Light purple */
     margin-bottom: 20px;
 }
 
@@ -966,5 +966,6 @@ h1 {
         font-size: 14px;
     }
 }
+
 
 

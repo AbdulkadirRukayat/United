@@ -6,61 +6,7 @@ body {
     background-color: #000;
     color: #fff;
 }
-.header {
-    background:#0a001f;
-  
-    position: fixed;
-    width: 100%;
-    top: 0;
-  
-    padding: 1rem 0;
-}
 
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.nav-brand {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--primary-color);
-}
-
-.nav-menu {
-    display: flex;
-    list-style: none;
-    gap: 2rem;
-}
-
-.nav-menu a {
-    color: var(--text-color);
-    text-decoration: none;
-    font-size: 1rem;
-    transition: color 0.3s;
-}
-
-.nav-menu a:hover {
-    color: var(--primary-color);
-}
-
-.hamburger {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-}
-
-.hamburger span {
-    width: 25px;
-    height: 3px;
-
-    margin: 3px 0;
-    transition: 0.3s;
-}
 
 .hero {
     display: flex;
@@ -966,6 +912,7 @@ h1 {
         font-size: 14px;
     }
 }
+
 
 
 

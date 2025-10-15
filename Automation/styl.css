@@ -7,12 +7,12 @@ body {
     color: #fff;
 }
 .header {
-    background: rgba(10, 0, 31, 0.95);
-    backdrop-filter: blur(10px);
+    background:#0a001f;
+  
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1000;
+  
     padding: 1rem 0;
 }
 
@@ -57,7 +57,7 @@ body {
 .hamburger span {
     width: 25px;
     height: 3px;
-    background: var(--text-color);
+
     margin: 3px 0;
     transition: 0.3s;
 }
@@ -966,6 +966,7 @@ h1 {
         font-size: 14px;
     }
 }
+
 
 
 

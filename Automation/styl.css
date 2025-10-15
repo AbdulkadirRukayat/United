@@ -7,7 +7,7 @@ body {
     color: #fff;
 }
 .header {
-    background:#ecb308f0;
+    background: rgba(10, 0, 31, 0.95);
     backdrop-filter: blur(10px);
     position: fixed;
     width: 100%;
@@ -28,7 +28,7 @@ body {
 .nav-brand {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #ecb308f0;
+    color: var(--primary-color);
 }
 
 .nav-menu {
@@ -38,7 +38,7 @@ body {
 }
 
 .nav-menu a {
-    color: #ecb308f0;
+    color: var(--text-color);
     text-decoration: none;
     font-size: 1rem;
     transition: color 0.3s;
@@ -57,19 +57,17 @@ body {
 .hamburger span {
     width: 25px;
     height: 3px;
-    background: #ecb308f0;
+    background: var(--text-color);
     margin: 3px 0;
     transition: 0.3s;
 }
-
-
 
 .hero {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color:#ecb308f0 ;
+    background-color:#0a001f ;
     text-align: center;
     padding: 20px;
     box-sizing: border-box;

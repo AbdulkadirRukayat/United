@@ -1,3 +1,4 @@
+
 // script.js
 // No JavaScript is strictly necessary for this static hero section,
 // but I've included a simple script for potential button interactions,

@@ -7,7 +7,7 @@ body {
     color: #fff;
 }
 .header {
-    background: rgba(10, 0, 31, 0.95);
+    background:#ecb308f0;
     backdrop-filter: blur(10px);
     position: fixed;
     width: 100%;
@@ -69,7 +69,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #0a001f; /* Dark purple-ish black to match the image */
+    background-color:#ecb308f0 ;
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
@@ -968,3 +968,4 @@ h1 {
         font-size: 14px;
     }
 }
+

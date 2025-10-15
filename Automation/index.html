@@ -7,9 +7,45 @@
     <title>Rukayat - Portfolio</title>
     <link rel="stylesheet" href="styl.css">
      <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+     <link rel="stylesheet" href="w3-theme-amber.css">
 </head>
 <body>
   
+
+    
+    <div id="sidebar" class="w3-sidebar w3-bar-block w3-indigo w3-animate-left w3-btn-hover-blue" style="width: 70%; 
+     display: none;">
+     <div class="w3"></div>
+      <a href="index.html" class="w3-btn w3-bar-item">Home</a>
+      <a href="about" class="w3-btn w3-btn-hover-blue  w3-bar-item">About Me</a>
+      <a href="projects"   class="w3-btn w3-btn-hover-blue w3-bar-item">Projects</a>
+      <a href="skills"    class=" w3-btn w3-btn-hover-blue w3-bar-item">Skills</a>
+      <a href="contact"   class=" w3-btn w3-btn-hover-blue w3-bar-item">Contact</a>
+    </div>
+    <div class="w3-main">
+      <header class="w3-row  w3-padding-small">
+        <div class="w3-col l2 m2 s4"> 
+            <img src="image/20250711_105005.png" style="width: 20%;">
+        </div>
+        <div class="w3-col l10 m10 s8"> 
+          <div class="w3-bar w3-right w3-right-align w3-padding w3-hide-small w3-hide-medium ">
+            <a href="index.html" class=" w3-btn w3-btn-hover-white">Home</a>
+            <a href="index.html" class=" w3-btn w3-btn-hover-white">About Us</a>
+            <a href="Services" class=" w3-btn w3-btn-hover-white">Services</a>
+            <a href="sign.html" class=" w3-btn w3-btn-hover-white">Sign In</a>
+            <a href="contact.html" class=" w3-btn w3-btn-hover-white">Contact</a>
+          </div>
+          <div class="w3-hide-large">
+            <div id="open" onclick="w3_open()" class="w3-btn w3-right w3-xlarge">
+              <i class="w3 fa fa-bars w3-text-indigo"></i>
+            </div>
+            <div id="close" onclick="w3_close()" class="w3-btn w3-right w3-xlarge "    
+            style="display: none ;">
+              <i class="w3 fa fa-times w3-text-indigo"></i>
+            </div>
+          </div>
+        </div>
+      </header>
     <section class="hero" id="home">
         <div class="hero-content">
             <p class="profession">Frontend Developer & Web Educator</p>
